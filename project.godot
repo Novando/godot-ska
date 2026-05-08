@@ -22,7 +22,7 @@ config/icon="res://icon.svg"
 
 [autoload]
 
-MessageBus="*res://autoloads/message_bus.autoload.gd"
+MessageBus="*res://src/autoloads/message_bus.autoload.gd"
 
 [debug]
 
@@ -34,12 +34,12 @@ gdscript/warnings/inferred_declaration=2
 [file_customization]
 
 folder_colors={
-"res://addons/": "orange",
-"res://assets/": "green",
-"res://autoloads/": "red",
-"res://components/": "blue",
-"res://data/": "orange",
-"res://scenes/": "purple",
-"res://scripts/": "pink",
-"res://tests/": "gray"
+"res://src/addons/": "orange",
+"res://src/assets/": "green",
+"res://src/autoloads/": "red",
+"res://src/components/": "blue",
+"res://src/data/": "orange",
+"res://src/scenes/": "purple",
+"res://src/scripts/": "pink",
+"res://src/tests/": "gray"
 }
